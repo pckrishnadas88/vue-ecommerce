@@ -11,7 +11,7 @@
                     <h5 class="card-text text-primary">&#8377; {{ p.price }}</h5>
                     <div class="badge badge-warning mt-3 mb-3" style="font-size:15px;"></div>
                     <br>
-                    <a :href="`/products/${ p.id }`" class="btn btn-primary">View more details</a>
+                    <router-link :to="`/products/${ p.id }`" class="btn btn-primary">View more details</router-link>
                 </div>
             </div>                
         </div>
